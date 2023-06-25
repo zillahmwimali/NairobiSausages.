@@ -1,4 +1,4 @@
-# nairobisausages
+# Nairobi Sausages
 
 ## Build Setup
 
