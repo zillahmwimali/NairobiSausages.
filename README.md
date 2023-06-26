@@ -1,73 +1,54 @@
 # Nairobi Sausages
 
-## Build Setup
+Nairobi Sausages is project a web application that connects pig farmers with Nairobi Sausages to facilitate the purchase of feeds and the selling of full-grown pigs. Pig farmers can log in, upload details of their animals, browse and purchase feeds, and eventually sell their pigs to Nairobi Sausages. The pricing of the pigs will vary based on their age and weight.
 
-```bash
-# install dependencies
-$ git clone login
+## Features
 
-$ yarn install
+- User authentication (login) for pig farmers to log in and access their accounts.
+- Ability for pig farmers to upload details of their animals and manage their inventory.
+- Feed store for pig farmers to browse and purchase feeds from Nairobi Sausages.
+- Dynamic pricing based on the age and weight of the pigs.
+- Integration with noblepig.com to display the 5 latest posts from their website.
+- Responsive UI design for both large and small screens.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## Technologies Used
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-$ yarn dev
-
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+- Frontend Framework: Vue.js
+- Server-Side Rendering: Nuxt.js
+- Styling: Tailwind CSS 
 
 
-### `pages`
+## Screenshots
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+### Large Screen
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+![Large Screen](screenshots/large-screen.png)
 
-### `plugins`
+### Small Screen
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+![Small Screen](screenshots/small-screen.png)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+## Getting Started
 
-### `static`
+To run Nairobi Sausages locally, follow these steps:
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+1. Clone the repository: `git clone https://github.com/zillahmwimali/NairobiSausages..git`
+2. Navigate to the project directory: `cd nairobisausages`
+3. Install dependencies: `npm install` or `yarn install`
+4. Set up environment variables if required.
+5. Start the development server: `npm run dev` or `yarn dev`
+6. Access the application in your browser at `http://localhost:3000`
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+## Contributing
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+Contributions are welcome! If you have any ideas, bug fixes, or improvements, please submit a pull request. Make sure to follow the existing code style and provide clear commit messages.
 
-### `store`
+## License
 
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+This project is licensed under the [MIT License](LICENSE).
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+## Contact
+
+If you have any questions or inquiries about Nairobi Sausages, feel free to reach out to us at [zillahmwimmali@gmail.com]
+
+Happy farming and sausage trading!
