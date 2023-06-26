@@ -28,7 +28,6 @@ Nairobi Sausages is project a web application that connects pig farmers with Nai
 
 ![Small Screen](screenshots/mobileLogin.png)
 ![Small Screen](screenshots/mobileDash.png)
-![Small Screen](screenshots/mobileSubmit.png)
 
 
 
