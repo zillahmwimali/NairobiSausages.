@@ -14,6 +14,8 @@ $ yarn dev
 # build for production and launch server
 $ yarn build
 $ yarn start
+$ yarn dev
+
 
 # generate static project
 $ yarn generate
