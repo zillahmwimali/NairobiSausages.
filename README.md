@@ -4,6 +4,8 @@
 
 ```bash
 # install dependencies
+$ git clone login
+
 $ yarn install
 
 # serve with hot reload at localhost:3000
