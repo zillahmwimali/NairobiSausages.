@@ -43,6 +43,11 @@ To run Nairobi Sausages locally, follow these steps:
 5. Start the development server: `npm run dev` or `yarn dev`
 6. Access the application in your browser at `http://localhost:3000`
 
+## Login credentials
+email : farmer@gmail.com
+password : !farmer1234
+
+
 ## Contributing
 
 Contributions are welcome! If you have any ideas, bug fixes, or improvements, please submit a pull request. Make sure to follow the existing code style and provide clear commit messages.
