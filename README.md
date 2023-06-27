@@ -57,6 +57,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or inquiries about Nairobi Sausages, feel free to reach out to us at [zillahmwimmali@gmail.com]
+If you have any questions or inquiries about Nairobi Sausages, feel free to reach out to me at [zillahmwimmali@gmail.com]
 
-Happy farming and sausage trading!
+Happy farming!
