@@ -2,51 +2,43 @@
   "posts": [
     {
       "id": 1,
-      "title": "Mermaid Smoothie Bowl",
+      "title": "Cabanossi",
       "description": "This magical Mermaid Smoothie Bowl is loved by children and adults alike and has the added benefit of health thanks to blue spirulina powder. The diy mermaid tails are made from frozen yogurt mixed with natural colorings and added to silicone molds. This smoothie bowl is incredibly easy to make at home. Your little mermaid is going to love it.",
-      "image": "https://noblepig.com/site/wp-content/uploads/2023/06/Mermaid-Smoothie-Bowl-7.jpg.webp",
-      "category": "smoothies",
-      "category2": "desserts"
+      "image": "https://www.germankenyasausages.com/wp-content/uploads/2019/06/BeefSausages.jpg",
+      "category": "Beef",
+      "category2": "smoked"
     },
     {
       "id": 2,
-      "title": "Lemonade Chicken",
+      "title": "Kalbsbratwurst",
       "description": "These crunchy Lemonade Chicken drumsticks are a combination of tangy buttermilk chicken paired with a crunchy, zesty coating that is melt-in-your-mouth perfect. If you’re craving a crunch that packs a punch, this chicken recipe is for you.",
-      "image": "https://noblepig.com/site/wp-content/uploads/2023/06/Lemonade-Chicken-3.jpg.webp",
-      "category": "chicken",
-      "category2": "starters"
+      "image": "https://www.metzgerei.de/media/d5/24/9c/1627975773/299_Kalbsbratwurst_gebraten.jpg",
+      "category": "Pork & Beef",
+      "category2": "smoked"
     },
     {
       "id": 3,
-      "title": "Lemon Cornmeal Cake",
+      "title": "Cheese Barbeque Sausage",
       "description": "Indulge in a slice of pure sunshine with this lemon cornmeal cake. This recipe blends the comforting flavors of cornbread, with the allure of a buttermilk coffee cake. Each bite is slathered in lemon glaze and crowned with a mound of blueberry topping as a finishing touch.",
-      "image": "https://noblepig.com/site/wp-content/uploads/2023/06/Lemon-Cornmeal-Cake-6.jpg.webp",
-      "category": "desserts",
-      "category2": "cakes"
+      "image": "https://www.germankenyasausages.com/wp-content/uploads/2019/06/Kenyancheesesausages.jpg",
+      "category": "pork",
+      "category2": "smoked"
     },
     {
       "id": 4,
-      "title": "Strawberry Buttermilk Pancakes",
+      "title": "Big Boy – Bockwurst",
       "description": "Strawberry Buttermilk Pancakes, where sweet meets tanginess and breakfast becomes a morning love affair. Topped with strawberry sauce, this fluffy, buttermilk stack is the epitome of pancake perfection.",
-      "image": "https://noblepig.com/site/wp-content/uploads/2023/06/Strawberry-Buttermilk-Pancakes-1.jpg.webp",
-      "category": "breakfast",
-      "category2": "fruity delights"
+      "image": "https://www.germankenyasausages.com/wp-content/uploads/2019/06/BeefandPorkSausage.jpg",
+      "category": "pork & Beef",
+      "category2": "smoked"
     },
     {
       "id": 5,
-      "title": "Strawberry Sauce",
+      "title": "Wiener Sausage",
       "description": "Bottle up this simple Strawberry Sauce to always have on hand. Use it as a finishing touch on everything from waffles to buttermilk pancakes, on top of cheesecake, drizzled over vanilla ice cream or spooned over shortcakes. It’s the strawberry topping recipe you’re going to use all summer long.",
-      "image": "https://noblepig.com/site/wp-content/uploads/2023/06/Strawberry-Sauce-5.jpg.webp",
-      "category": "condiments",
-      "category2": "toppings"
-    },
-    {
-      "id": 6,
-      "title": "cherry martini",
-      "description": "This sophisticated and unique version of a Cherry Martini is like no other you’ve experienced. Its incredibly punchy, but velvety, cherry flavor profile is balanced and its crimson, red color is captivating. Edible glitter is optional, but recommended if you’re wanting to make a bold statement.",
-      "image": "https://noblepig.com/site/wp-content/uploads/2023/06/Cherry-Martini-3.jpg.webp",
-      "category": "condiments",
-      "category2": "toppings"
+      "image": "https://www.germankenyasausages.com/wp-content/uploads/2019/06/BestBBQSausages.jpg",
+      "category": "Pork & Chicken",
+      "category2": "smoked"
     }
   ]
 }
