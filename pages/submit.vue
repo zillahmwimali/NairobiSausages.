@@ -34,6 +34,7 @@
           name="breed"
           class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none"
           required
+          @change="updatePrice" 
         >
           <option value="" disabled selected>Large White</option>
           <option value="Large White">Large White</option>
@@ -78,18 +79,29 @@
         </select>
       </div>
       <div class="mb-4">
-        <label class="block font-bold mb-2" for="price">Ask Price per Pig</label>
-        <input
-          v-model="price"
-          type="text"
-          id="price"
-          name="price"
-          class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none"
-          required
-          placeholder="0.00"
-          :style="{ color: '#999999' }"
-        />
-      </div>
+  <label class="block font-bold mb-2" for="pricePerPig">Ask Price per Pig</label>
+  <input
+    type="text"
+    id="pricePerPig"
+    name="pricePerPig"
+    class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none"
+    :value="pricePerPig"
+    readonly
+  />
+</div>
+<div class="mb-4">
+  <label class="block font-bold mb-2" for="totalPrice">Total Price per Batch</label>
+  <input
+    type="text"
+    id="totalPrice"
+    name="totalPrice"
+    class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none"
+    :value="totalPrice"
+    readonly
+  />
+</div>
+
+
       <button
         type="submit"
         class="bg-[#212427] w-full hover:bg-[#OOO] text-white font-bold py-4 px-4 rounded-full focus:outline-none"
@@ -123,11 +135,13 @@ export default {
       breed: '',
       age: '',
       weight: '',
-      price: '',
       showModal: false,
       modalTitle: "",
       modalMessage: "",
       isFailed: false, 
+      pricePerPig: '',
+      totalPrice: '',
+      
     };
   },
   computed: {
@@ -137,7 +151,8 @@ export default {
         this.breed &&
         this.age &&
         this.weight &&
-        this.price
+        this.pricePerPig &&
+        this.totalPrice
       );
     },
   },
@@ -157,35 +172,45 @@ export default {
     },
 
     updatePrice() {
-    const age = parseFloat(this.age);
-    const weight = parseFloat(this.weight);
-    const batch = parseFloat(this.batch);
+      const age = parseFloat(this.age);
+  const weight = parseFloat(this.weight);
+  const batch = parseFloat(this.batch);
 
+  if (age && weight && batch) {
+    let calculatedPricePerPig = 0.0;
+    let calculatedTotalPrice = 0.0;
 
-    if (age && weight) {
-    let calculatedPrice = 0.0;
 
     if (age <= 12 && weight <= 100) {
-      calculatedPrice = 1000;
+      calculatedPricePerPig = 1000;
     } else if (age <= 12 && weight <= 80) {
-      calculatedPrice = 1500;
+      calculatedPricePerPig = 1500;
     } else if (age <= 24 && weight <= 100) {
-      calculatedPrice = 2000;
+      calculatedPricePerPig = 2000;
     } else if (age <= 24 && weight <= 120) {
-      calculatedPrice = 2500;
+      calculatedPricePerPig = 2500;
     } else if (age <= 36 && weight <= 150) {
-      calculatedPrice = 3000;
+      calculatedPricePerPig = 3000;
     } else if (age <= 36 && weight <= 200) {
-      calculatedPrice = 3500;
+      calculatedPricePerPig = 3500;
     } else {
-      calculatedPrice = 4000;
+      calculatedPricePerPig = 4000;
     }
+    
+    calculatedTotalPrice = (calculatedPricePerPig * batch).toFixed(2);
 
-    this.price = (calculatedPrice * batch).toFixed(2);
+this.pricePerPig = calculatedPricePerPig.toFixed(2);
+this.totalPrice = calculatedTotalPrice;
+
   }
 },
 
+
   },
+  watch: {
+  batch: 'updatePrice' 
+},
+
 };
 </script>
 

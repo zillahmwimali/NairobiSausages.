@@ -1,7 +1,7 @@
 <template>
   <div class="w-full md:w-1/3 lg:w-1/4 px-4 mb-4">
     <div class="bg-white rounded-lg shadow-lg flex sm:flex-col">
-      <img :src="image" alt="Post Image" class="w-1/4 sm:h-48  sm:w-full h-1/4 object-cover rounded-t-lg p-2 sm:p-0" />
+      <img :src="image" alt="Post Image" class="w-1/4 sm:h-full  sm:w-full h-4/4 object-cover rounded-t-lg p-2 sm:p-0" />
       <div class="p-4 flex flex-col justify-between">
         <div>
           <h3 class="text-xl font-semibold mb-2">{{ title }}</h3>
